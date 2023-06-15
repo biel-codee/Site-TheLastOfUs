@@ -1,0 +1,351 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home{
+    height: 900px;
+    background-image: url("./img/background.svg");
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position: top right;
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header > figure > img{
+    width: 230px;
+    margin: 30px 30px 30px 0px;
+}
+
+nav{
+    width: 70%;
+}
+
+nav > ul{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul >li> a {
+    color:var(--color-grey-2);
+    font-family: 'Iceland';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+} 
+
+ul> li > a:hover{
+    font-weight: 600;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1{
+    width:668px;
+    font-family: 'Iceland';
+    font-size: 92px;
+    font-weight: 400;
+    line-height: 89px;
+    text-align: left;
+    color: var(--color-grey-2);
+    margin: 10px 0px 10px 0px;
+}
+
+main > p{
+    width: 506px;
+    font-family: 'Actor';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: var(--text-color-1);
+    margin: 10px;
+}
+
+main > section{
+    margin-top: 100px;
+}
+
+button{
+    height: 46px;
+    width: 180px;
+    left: 5002px;
+    top: 23px;
+    color: var(--color-grey-2);
+    margin: 10px;
+    font-family: 'Iceland';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active{
+    background-color: var(--color-secundary);
+}
+.active:hover{
+    border: 2px solid var(--color-grey-1)
+}
+
+.inactive{
+    background-color: var(--color-grey-1);
+}
+.inactive:hover{
+    border: 2px solid var(--color-grey-2)
+}
+
+h3{
+    height: 65px;
+    width: 336px;
+    font-family: 'Iceland';
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+section > ul{
+    width: 800px;
+}
+
+section > ul > li{
+    height: 139px;
+    width: 261px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+ ul > li{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    color: var(--color-grey-2);
+} 
+
+.eps{
+    height: 900px;
+    background-image: url("../assets/img/backgroundEps.jpg");
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position: top right;
+}
+
+.posts{
+    height: 546px;
+    width: 479px;
+    margin-top: 80px;
+    margin-bottom: 275px;
+    padding: 5px;
+    text-align: justify;
+}
+
+section > h2{
+    font-family: 'Iceland';
+    color: var(--color-grey-2);
+    font-size: 80px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.posts > p {
+    color: var(--color-grey-2);
+    font-family: 'Iceland';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.epsList{
+    height: 762px;
+    width: 671px;
+    margin: 0 auto;
+    overflow: auto; 
+}
+
+
+.card {
+    height: 182px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    background-color: var(--color-grey-3);
+}
+
+.epsList::-webkit-scrollbar {
+    background-color: var(--color-secundary); 
+    border-radius: 20px; 
+    border: 3px solid black; 
+  }
+
+.card > img {
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+}
+  
+.cardText {
+    width: 60%;
+    height: 80%;
+    margin: 20px;
+}
+
+.cardText > h4 {
+    height: 30px;
+    font-family: 'Darker Grotesque';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+.cardText > p {
+    height: 88px;
+    width: 324px;
+    left: 5690px;
+    top: 639px;
+    border-radius: nullpx;
+    font-family: 'Darker Grotesque';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+.history{
+    height: 900px;
+    background-image: url("../assets/img/backgroundHist.jpg ");
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position: top right;
+}
+
+.box{
+    background-color: var(--text-color-1);
+    border-radius: 15px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#boxText{
+    margin-top: 25px;
+}
+
+.box h2 {
+    font-size: 70px;
+}
+
+.box strong{
+    font-family: "Iceland";
+    font-family: 25px;
+}
+
+.box p{
+    font-family:'Darker Grotesque';
+    font-size: 25px;
+    text-align: justify;
+}
+
+.box::-webkit-scrollbar {
+    background-color: var(--color-secundary);
+    border-radius: 20px; 
+    border: 3px solid black; 
+}
+
+.galery{
+    height: 900px;
+    background-image: url("../assets/img/backgroundGalery.jpg ");
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position: top right;
+}
+
+#galery{
+    font-family: 'Iceland';
+    color: var(--color-grey-2);
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+#carousel-image {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+  
+#previous-button , #next-button{
+    top: 23px;
+    color: var(--color-secundary);
+    background-color: var(--text-color-1);
+    margin: 10px;
+    cursor: pointer;
+} 
+  
+#previous-button {
+  margin-right: 5px;
+}
+  
+#next-button {
+    margin-left: 15px;
+}
+
+footer{
+    height: 200px;
+    background: linear-gradient(180deg, #000000 0%, #950202 289.06%);
+
+}
+
+footer > figure > img{
+    width: 230px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
